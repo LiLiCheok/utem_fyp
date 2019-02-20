@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.buyme.Interface.MapsActivity" />
+
+    <TextView
+        android:id="@+id/MyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:text="The distance and duration to get there."
+        android:layout_alignParentTop="true"
+        android:textAlignment="center"
+        android:textSize="20px"
+        android:background="#F4F6F6"
+        android:textColor="@android:color/black"
+        android:alpha="0.8"
+        android:paddingTop="20px" />
+
+</RelativeLayout>

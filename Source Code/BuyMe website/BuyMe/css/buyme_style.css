@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* BuyMe 2016 CSS Document */
+
+/* Overall tag name */
+body {height: 100%;width: 100%;}
+textarea {resize:none;}
+
+/* User style */
+#header_logo {width:50px;height:50px;}
+#category {float:right;}
+#signup {float:right;}
+#label_email {margin: 0 100px 0 100px;color:#AEB6BF;}
+#login_button {width:100px;float:right;margin-left:10px;}
+#send_button {width:100px;margin-top:10px;float:right;}
+#send_form {margin-left:100px;margin-right:100px;}
+#seller_reg_info {display: none;}
+#all_day {display: none;}
+#shop_location {display: none;}
+#password_not_match {display: none;}
+#track_pic {height:25px;width:25px;}
+#location {width:400px;margin-right:10px;}
+#label_reset {margin: 0 100px 0 100px;color: #AEB6BF;}
+#cart_box {width:125px;text-align:right;}
+#shopimage {width:150px;height:200px;}
+#seller_reg_button{width:100px;float:right;margin-left:10px;}
+#user_reg_button{width:100px;float:right;margin-left:10px;}
+#search_cat{width:100px;float:right;margin-left:10px;}
+#product_details {display:none;}
+#back_to_prevpage{display:none;}
+#image_section{flex: 1;text-align:center;}
+#info_section{flex: 1;}
+#sp_shopadd_tbl{display:none;}
+#sp_shoploc_tbl{display:none;}
+#sp_daily_time{display:none;}
+#sp_monsun_time{display:none;}
+#open_sinfo{display:none;}
+#update_uprofile_btn{width:100px;background-color:#D7BDE2;color:#5B2C6F;}
+#update_uprofile_btn:hover {background-color:#AF7AC5;color:#FFF;}
+#add_address_btn{width:100px;background-color:#D7BDE2;color:#5B2C6F;}
+#add_address_btn:hover {background-color:#AF7AC5;color:#FFF;}
+#change_uemail_btn{width:150px;background-color:#D7BDE2;color:#5B2C6F;}
+#change_uemail_btn:hover {background-color:#AF7AC5;color:#FFF;}
+#change_upass_btn{width:150px;background-color:#D7BDE2;color:#5B2C6F;}
+#change_upass_btn:hover {background-color:#AF7AC5;color:#FFF;}
+#upass_match{display:none;}
+#mail_validation{display:none;}
+#mail_validation_1{display:none;}
+#umail_validation{display:none;}
+#cart_notification{background:#1A5276;}
+#order_notification{background:#1A5276;}
+#no_cart{display:none;text-align:center;}
+#user_cart{display:none;}
+#no_order{display:none;text-align:center;}
+#user_order{display:none;}
+#shop_now_btn{width:150px;background-color:#A3E4D7;color:#0E6655;}
+#shop_now_btn:hover {background-color:#17A589;color:#FFF;}
+#charge{display:none;}
+#other_charge{display:none;}
+#free{display:block;}
+#checkout_bill{display:none;}
+#order_detail{display:none;}
+#order_detail_1{border:dotted; padding:5px; overflow: hidden;}
+.seperate{border-bottom:dotted; border-bottom-color:#CCC;}
+.important_word{color:#900;}
+.btn_left{float:left;}
+.btn_cart {background-color:#A3E4D7;color:#0E6655;}
+.btn_cart:hover {background-color:#17A589;color:#FFF;}
+.btn_continue {width:150px;background-color:#A3E4D7;color:#0E6655;}
+.btn_continue:hover {background-color:#17A589;color:#FFF;}
+.btn_checkout {width:150px;background-color:#F8C471;color:#935116;}
+.btn_checkout:hover {background-color:#F39C12;color:#FFF;}
+.btn_cancel_checkout {width:150px;background-color:#F5B7B1;color:#943126;margin-left:10px;}
+.btn_cancel_checkout:hover {background-color:#CB4335;color:#FFF;}
+.track {margin-top:5px;margin-bottom:5px;}
+.nav {float:left;position:static;}
+.navbar-light {background-color: #e3f2fd;}
+.nav > li > a{border-radius: 5px;}
+.nav > li > a:hover{background-color: #A9CCE3 !important;border-radius: 5px;color:#fff;}
+.nav > li.active > a,
+.nav > li.active > a:focus,
+.nav > li.active > a:hover{background-color: #5DADE2 !important;color:#fff;}
+.container {margin:0 auto 0 auto;height:100%;}
+.card-img-top {width:100%;height:350px;}
+.position{text-align:center;}
+.display{display:none;}
+.tbl_checkout{border: 2px solid #AAB7B8; border-style:dashed;}
+
+/* Seller style*/
+#lo {display: none;}
+#ad {display: none;}
+#pass_match {display: none;}
+#everyday {display: none;}
+#mon_sun {display: none;}
+#hide_info {display:none;}
+#add_new_product {display:none;border:2px solid #369;border-radius:5px;padding:10px;overflow:auto;}
+#cancel_add_btn {margin:0 25px 10px 0;width:100px;background-color:#6CF;color:#009;float:right;}
+#add_btn {width:100px;background-color:#6CF;margin:0 10px 10px 0;color:#009;float:right;}
+#cancel_add_btn:hover {background-color:#66F;color:#FFF;}
+#add_btn:hover {background-color:#66F;color:#FFF;}
+#image_box {width:350px;height:400px;border:1px solid #aaaaaa;border-style:dashed;margin-left:auto;margin-right:auto;}
+#product_info{margin-right:25px;margin-left:25px;}
+#search_product_btn {width:80px;background-color:#6CF;margin:0 10px 10px 0;color:#009;float:right;}
+#search_product_btn:hover {background-color:#66F;color:#FFF;}
+#add_new_product_btn {width:180px;background-color:#6CF;color:#009;}
+#add_new_product_btn:hover {background-color:#66F;color:#FFF;}
+#add_product_btn {width:180px;background-color:#6CF;color:#009;float:left;}
+#add_product_btn:hover {background-color:#66F;color:#FFF;}
+#update_old_product {display:none;border:2px solid #369;border-radius:5px;padding:10px;overflow:auto;}
+#new_image_box {width:350px;height:400px;border:1px solid #aaaaaa;border-style:dashed;margin-left:auto;margin-right:auto;}
+#cancel_update_btn {margin:0 25px 10px 0;width:100px;background-color:#6CF;color:#009;float:right;}
+#update_btn {width:100px;background-color:#6CF;margin:0 10px 10px 0;color:#009;float:right;}
+#cancel_update_btn:hover {background-color:#66F;color:#FFF;}
+#update_btn:hover {background-color:#66F;color:#FFF;}
+#smail_validation{display:none;}
+#no_cusorder{display:none;text-align:center;}
+#cus_order{display:none;}
+#cusorder_detail{display:none;}
+#sp_sdi_tbl{display:none;}
+#cusorder_detail_1{border:dotted; padding:5px; overflow: hidden;}
+.status{text-align:center;}
+.selected_image {height:100%;width:100%;}
+.center_label {text-align:center;}
+.label_btw {margin-top:5px;margin-bottom:5px;text-align:center;}
+.show_logo {height: 100%;width: 100%;overflow: hidden;}
+.image_size {width: 100%;height: 100%;overflow: hidden;}
+.image_size img {width: 100%;height: 100%;}
+.btn_right {float:right;}
+.tablestyle {margin-left: auto;margin-right:auto;border-collapse: collapse;width:100%;}
+.tablestyle th {border: solid 2px #000;padding: 5px;text-align: center;border-color: #EBDEF0;background: #F2F3F4;}
+.tablestyle td {border: solid 2px #000;padding: 5px;text-align: center;border-color: #EBDEF0;}
+.seller_pro_btn {width:180px;background-color:#D5F5E3;margin:0 5px 0 5px;color:#186A3B;}
+.seller_pro_btn:hover {background-color:#2ECC71;color:#FFF;}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#73C6B6</color>
+    <color name="colorButton">#D7BDE2</color>
+    <color name="colorButton1">#FADBD8</color>
+    <color name="colorButton2">#F5B041</color>
+    <color name="colorB2Word">#7E5109</color>
+    <color name="colorWrong">#F80606</color>
+    <color name="colorPop">#D1F2EB</color>
+    <color name="colorBackground">#EAECEE</color>
+    <color name="colorList">#D4EFDF</color>
+    <color name="colorCart">#FEF9E7</color>
+    <color name="colorProgress">#E6B0AA</color>
+    <color name="colorTaken">#ABEBC6</color>
+</resources>

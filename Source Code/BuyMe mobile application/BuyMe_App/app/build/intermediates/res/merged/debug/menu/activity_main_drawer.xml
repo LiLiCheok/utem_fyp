@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/app_home"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_menu_home"
+            android:title="Home" />
+    </group>
+
+    <group
+        android:id="@+id/user_function"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@mipmap/ic_menu_login"
+            android:title="Log In"
+            android:visible="true"/>
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@mipmap/ic_menu_user"
+            android:title="Register"
+            android:visible="true"/>
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@mipmap/ic_menu_cart"
+            android:title="My Cart"
+            android:visible="false"
+            app:actionLayout="@layout/cart_num"/>
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@mipmap/ic_menu_order"
+            android:title="My Order"
+            android:visible="false"
+            app:actionLayout="@layout/order_num"/>
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@mipmap/ic_menu_profile"
+            android:title="My Profile"
+            android:visible="false"/>
+    </group>
+
+    <group
+        android:id="@+id/logout"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@mipmap/ic_menu_logout"
+            android:title="Log Out"
+            android:visible="false"/>
+    </group>
+
+</menu>

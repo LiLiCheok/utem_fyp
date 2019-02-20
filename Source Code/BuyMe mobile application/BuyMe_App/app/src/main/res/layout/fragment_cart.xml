@@ -1,0 +1,127 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.buyme.Interface.CartFragment">
+
+    <LinearLayout
+        android:id="@+id/no_cart_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your cart is empty."
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shop Now"
+            android:id="@+id/cshop_now_btn"
+            android:layout_margin="5dp"
+            android:textAllCaps="false"
+            android:background="@color/colorButton2"
+            android:textColor="@color/colorB2Word" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cart_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="number of cart"
+                android:id="@+id/num_cart"
+                android:layout_alignParentTop="true"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:background="#F4F6F6"
+                android:textColor="@android:color/black"
+                android:alpha="0.8"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*** Click the list to change the order's info. ***"
+                android:layout_below="@+id/num_cart"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/cart_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:listitem="@layout/cart_list"
+                android:divider="@null"
+                android:dividerHeight="10dp"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#AED6F1"
+            android:alpha="0.8"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Total(MYR) :"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/cart_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:hint="0.00"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Checkout"
+            android:id="@+id/checkout_btn"
+            android:layout_margin="5dp"
+            android:textAllCaps="false"
+            android:background="@color/colorButton2"
+            android:textColor="@color/colorB2Word" />
+
+    </LinearLayout>
+
+</FrameLayout>

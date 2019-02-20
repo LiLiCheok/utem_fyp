@@ -1,0 +1,780 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <FrameLayout
+        android:id="@+id/fragment_specific_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        tools:context=".Interface.SpecificProductFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Product's Detail"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:id="@+id/sp_image"
+                android:layout_gravity="center"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:text="Category :"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/sp_category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:hint="sp_category"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:text="Product ID :"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/sp_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:hint="sp_id"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:text="Name :"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/sp_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:hint="sp_name"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:text="Description :"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/sp_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:hint="sp_description"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:text="Price(MYR) :"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/sp_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:hint="sp_price"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_margin="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:text="Available at :"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/sp_shopname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:hint="sp_shopname"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:text="Shop Description :"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/sp_shopdesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:hint="sp_shopdesc"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:text="Shop Contact :"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/sp_shopcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:hint="sp_shopcon"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/daily_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="88dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:text="Open Hours :"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/day"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:hint="day"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:hint="start"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="-"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:hint="end"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mon_sun_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="88dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:text="Open Hours :"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/monday"
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:hint="Monday"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/monstart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:hint="start"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="-"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/monend"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:hint="end"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="88dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp" />
+
+                    <TextView
+                        android:id="@+id/tuesday"
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:hint="Tuesday"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/tuestart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:hint="start"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="-"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/tueend"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:hint="end"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="88dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp" />
+
+                    <TextView
+                        android:id="@+id/wednesday"
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:hint="Wednesday"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/wedstart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:hint="start"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="-"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/wedend"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:hint="end"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="88dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp" />
+
+                    <TextView
+                        android:id="@+id/thursday"
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:hint="Thursday"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/thurstart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:hint="start"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="-"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/thurend"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:hint="end"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="88dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp" />
+
+                    <TextView
+                        android:id="@+id/friday"
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:hint="Friday"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/fristart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:hint="start"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="-"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/friend"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:hint="end"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="88dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp" />
+
+                    <TextView
+                        android:id="@+id/saturday"
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:hint="Saturday"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/satstart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:hint="start"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="-"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/satend"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:hint="end"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="88dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp" />
+
+                    <TextView
+                        android:id="@+id/sunday"
+                        android:layout_width="85dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:hint="Sunday"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/sunstart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:hint="start"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="-"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/sunend"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:layout_margin="5dp"
+                        android:hint="end"
+                        android:textColor="@android:color/black" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sp_shopadd_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:text="Shop Address :"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/sp_shopadd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:hint="sp_shopadd"
+                    android:textColor="@android:color/holo_blue_bright"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sp_shoploc_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:text="Shop Location :"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/sp_shoploc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:hint="sp_shoploc"
+                    android:textColor="@android:color/holo_blue_bright"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:text="Delivery Service :"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/sp_shopdel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:hint="sp_shopdel"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sp_shopdelinfo_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:text="Delivery Info. :"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/sp_shopdelinfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_margin="5dp"
+                    android:hint="sp_shopdelinfo"
+                    android:textColor="@android:color/black" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/who_posted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_margin="5dp"
+                android:hint="posted by...on..."
+                android:layout_gravity="right"
+                android:textStyle="italic"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add To Cart"
+                android:id="@+id/sp_add_to_cart_btn"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:focusable="false"
+                android:background="@color/colorCart"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</ScrollView>

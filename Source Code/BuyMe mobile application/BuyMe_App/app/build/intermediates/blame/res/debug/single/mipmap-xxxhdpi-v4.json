@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\BuyMe_App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_delete_cart.png",
+        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\BuyMe_App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_delete_cart.png"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\BuyMe_App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_menu_cart.png",
+        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\BuyMe_App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_menu_cart.png"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\BuyMe_App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\BuyMe_App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\BuyMe_App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_menu_home.png",
+        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\BuyMe_App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_menu_home.png"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\BuyMe_App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_menu_profile.png",
+        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\BuyMe_App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_menu_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\BuyMe_App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_menu_user.png",
+        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\BuyMe_App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_menu_user.png"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\BuyMe_App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_menu_order.png",
+        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\BuyMe_App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_menu_order.png"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\BuyMe_App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_menu_logout.png",
+        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\BuyMe_App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_menu_logout.png"
+    },
+    {
+        "merged": "C:\\Users\\Asus\\AndroidStudioProjects\\BuyMe_App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_menu_login.png",
+        "source": "C:\\Users\\Asus\\AndroidStudioProjects\\BuyMe_App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_menu_login.png"
+    }
+]
